@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<h2> Objects in js </h2>
+<p id='demo'></p>
+<script >
+	var person={
+		first_name: "Anshika",
+		Occ: "Programmer",
+		fullname: function(){
+			return this.first_name+''+this.Occ;
+		}
+	};
+	document.getElementById('demo').innerHTML=person.fullname();
+</script>
+  <div onmousemove="this.style.backgroundColor='red'">donot click here</div>
+
+	</body>
+</html>
