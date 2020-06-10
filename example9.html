@@ -1,0 +1,24 @@
+<html>
+  <body>
+  	<p id="demo"></p>
+  	<p id="demo1"></p>
+  	<p id="demo2"></p>
+  	<p id="demo3"></p>
+  	<p id="demo4"></p>
+  	<p id="demo5"></p>
+<script >
+	
+	var ms = Date.parse("March 21,2012");
+	var ds = new Date(ms);
+	var d = new Date()
+	document.getElementById("demo").innerHTML=ds;
+	document.getElementById("demo").innerHTML=d.getFullYear();
+	document.getElementById("demo1").innerHTML=d.getMonth();
+	document.getElementById("demo2").innerHTML=d.getHours();
+	document.getElementById("demo3").innerHTML=d.getMilliseconds();
+	document.getElementById("demo4").innerHTML=d.getTime();
+	document.getElementById("demo5").innerHTML=d.Date.now;
+
+</script>
+  	</body>
+</html>
