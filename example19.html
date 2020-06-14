@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p> Getter and setter methods </p>
+	<p id="demo"></p>
+
+	<script >
+		class Car{
+			constructor(brand){
+				this._carname  =brand;
+			}
+
+			get carname(){
+				return this._carname;
+			}
+			set carname(x){
+				this._carname=x;
+			}
+
+		}
+		mycar = new Car("Ford");
+		document.getElementById("demo").innerHTML=mycar.carname;
+	</script>
+
+</body>
+</html>
