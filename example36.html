@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<p> Try to resize the window</p>
+	<p id="demo"></p>
+</head>
+<body>
+	<script>
+		window.addEventListner("resize",function(){
+			document.getElementById("demo").innerHTML=Math.random();
+		});
+	</script>
+
+</body>
+</html>
